@@ -35,6 +35,7 @@ export default function Home() {
                 src="/landing-coffee.svg"
                 width={400}
                 height={400}
+                className='mx-auto'
                 alt="Coffee mugs"
             />
             <p className="mt-6 text-lg leading-8 text-gray-600">

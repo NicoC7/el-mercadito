@@ -22,7 +22,7 @@ export default function NavLinks() {
             key={link.name}
             href={link.href}
             className={clsx(
-              'text-gray-300 hover:bg-gray-700 hover:text-white',
+              'text-black-300 hover:bg-gray-700 hover:text-white',
               'rounded-md px-3 py-2 text-sm font-medium',
               {
                 'bg-zinc-900 text-white': pathname === link.href,
